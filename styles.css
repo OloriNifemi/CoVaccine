@@ -128,8 +128,24 @@ main .img{
 main .img img{
     width: 100%;
 }
-
 /* about section */
+.scroll-to-top{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: var(--primary);
+    border-radius: 50%;
+    border: none;
+    color: var(--light);
+    font-size: 24px;
+    padding: 10px 15px;
+    transition: all .3s ease;
+    cursor: pointer;
+    display: none;
+}
+.scroll-to-top:hover{
+    background-color: var(--primary-shade);
+}
 .about{
     width: 100%;
     padding: 64px 0 ;

@@ -6,6 +6,7 @@
     <title>CoVaccine Landing Page</title>
     <link rel="stylesheet" href="styles.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body>
     <!-- header -->
@@ -39,6 +40,10 @@
             </div>
         </div>
     </main>
+    <!-- scroll to top -->
+     <button class="scroll-to-top" id="scroll-to-top">
+        <i class='bx bx-chevron-up'></i>
+     </button>
     <!-- about section -->
     <section id="about" class="about">
         <div class="container">
@@ -132,7 +137,7 @@
                 <h3>Contact Us</h3>
             </div>
             <div class="content">
-                <form action="#">
+                <form action="#" id="contact-form">
                     <div class="form-group">
                         <label for="email">Email</label>
                         <input type="email" >
@@ -159,7 +164,7 @@
 
         </div>
     </section>
-    <!--  footer -->
-
+     <!-- footer -->
+<script src="script.js"></script>
 </body>
 </html>
